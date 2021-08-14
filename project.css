@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Play');
+*{
+    font-family: Play, Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #FFAFA;
+}
+h1{
+    font-size: 3em;
+    text-align:center;
+    
+}
+.inputs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    margin: 30px;
+    padding: 10px 10px;
+    border: 3px solid darkslategray;
+    border-radius: 20px;
+}
+.inputs input:hover{
+    box-shadow: 3px 3px 2px grey; ;
+}
+input.checkbox{
+    margin: 0;
+    width: 30px;
+}
+.results{
+    opacity: 0;
+}
+button{
+    background-color:lightgrey;
+    border-radius: 30px;
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    margin-top: 50px;
+    border: 2px solid darkslategray;
+    font-weight: bold;;
+    
+}
+
+button:hover{
+    border: 3px solid rgba(47, 79, 79, 0.401);
+    color: rgba(0, 0, 0, 0.83);
+}
+
+.results{
+    text-align: center;
+    background-color: lightgrey;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 40px;
+    border-radius: 20px;
+    padding: 10px;
+}
